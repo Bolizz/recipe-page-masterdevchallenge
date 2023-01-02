@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  margin: 52px 0 48px 0;
+}
+#cake {
+  margin-top: 30px;
+  width: 969px;
+  height: 470px;
+}
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 25px;
+}
+li {
+  font-size: 16px;
+  list-style-type: none;
+  font-family: montserrat;
+}
+strong {
+  font-weight: bolder;
+}
+h1 {
+  font-size: 48px;
+  font-family: Playfair Display;
+}
+.description {
+  font-size: 14px;
+  max-width: 592px;
+  height: 51px;
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  gap: 20px;
+  font-family: montserrat;
+}
+.dots {
+  margin-top: 5px;
+}
+h3 {
+  padding-bottom: 28px;
+  font-size: 24px;
+  font-family: Playfair Display;
+}
+.subh {
+  margin-bottom: 31px;
+  font-family: Playfair Display;
+  font-size: 18px;
+}
+.lower-part {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+}
+.left-part {
+  width: 600px;
+}
+.side-bar {
+  display: grid;
+  grid-template-rows: repeat(2, 0fr);
+  gap: 42px;
+  width: 216px;
+  height: 367px;
+  border: 1px grey solid;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: montserrat;
+}
+.s1 {
+  margin-top: 57px;
+}
+.icons {
+  width: 28px;
+  height: 28px;
+}
+.din {
+  fill: orange;
+}
+.sblock {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  gap: 13px;
+  margin-left: 42px;
+}
+.sblower {
+  display: grid;
+  grid-template-rows: repeat(3, 0fr);
+  gap: 42px;
+}
+.lower {
+  font-size: 14px;
+}
+.t1 {
+  color: orange;
+}
+.upper {
+  color: grey;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.box {
+  width: 20px;
+  height: 20px;
+  border: 1px grey solid;
+}
+.list {
+  display: flex;
+  margin-bottom: 38px;
+  align-items: start;
+}
+input {
+  margin-right: 17px;
+}
+.nb {
+  width: 26px;
+  height: 36px;
+  border: 1px orange solid;
+  color: white;
+  background-color: orange;
+  border-radius: 6px;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* padding: 6px 10px 6px 13px; */
+}
+.intr li {
+  margin-left: 12px;
+  width: 528px;
+}
+footer {
+  margin-top: 93px;
+  margin-left: 40%;
+  font-family: "Montserrat", sans-serif;
+  color: #bdbdbd;
+}
+.source {
+  color: gray;
+  font-size: 16px;
+  font-family: montserrat;
+}
+@media screen and (max-width: 600px) {
+  header {
+    margin: 0 0 24px 0;
+  }
+  .container {
+    padding-left: 0;
+    margin-left: 11px;
+    max-width: 360px;
+  }
+  .description {
+    gap: 10px;
+  }
+  #cake {
+    margin-top: 15px;
+    width: 358px;
+    height: auto;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .lower-part {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  .left-part {
+    max-width: 100%;
+  }
+  .side-bar {
+    border: 0px solid gray;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-rows: repeat(2, 0fr);
+    gap: 20px;
+  }
+  .sblower {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sblock {
+    gap: 0px;
+    width: 75px;
+    margin-left: 0;
+  }
+  .s1 {
+    justify-self: start;
+    margin-top: 0;
+  }
+  .intr {
+    max-width: 100%;
+  }
+  .ingr {
+    max-width: 100%;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .subh {
+    font-size: 16px;
+  }
+  li {
+    font-size: 14px;
+  }
+  .intr li {
+    margin-left: 12px;
+  }
+  .nb {
+    font-size: 24px;
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+  .upper {
+    font-size: 8px;
+  }
+  .lower {
+    font-size: 10px;
+  }
+  .icons {
+    height: 13px;
+    width: 13px;
+  }
+}
